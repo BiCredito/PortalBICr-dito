@@ -1,0 +1,3 @@
+sudo du -h --max-depth=1  /home/ubuntu/airflow/
+
+df -h

@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- TESTANDOOO -->
-
 <head>
 
     <meta charset="utf-8">
@@ -60,7 +58,7 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Pré venda e venda</span>
+                    <span>Leads & venda</span>
                 </a>
                 <!--<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
@@ -84,6 +82,23 @@
                         <h6 class="collapse-header">Gestão de Carteira</h6>
                         <a class="collapse-item" href="utilities-color.html">Ações de carteira</a>
                         <a class="collapse-item" href="utilities-border.html">Pagamentos e recuperação</a>
+                    </div>
+                </div>-->
+            </li>
+			
+			<!-- Nav Item - Utilities Collapse Menu -->
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
+                    aria-expanded="true" aria-controls="collapseUtilities">
+                    <i class="fas fa-fw fa-wpforms"></i>
+                    <span>Performance</span>
+                </a>
+                <!--<div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <h6 class="collapse-header">Cobrança</h6>
+                        <a class="collapse-item" href="utilities-color.html">Ações e régua de cobrança</a>
+                        <a class="collapse-item" href="utilities-border.html">Recuperação</a>
                     </div>
                 </div>-->
             </li>
@@ -264,111 +279,213 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
+                    <!-- Resultados: Header -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Overview Crédito (últ. 30 dias)</h1> 
+                        <h1 class="h3 mb-0 text-gray-800">Overview Crédito</h1> 
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Download em PDF</a>
                     </div>
-                    <!-- Content Row -->
-                    <div class="row">
 
-                        <!-- Earnings (Monthly) Card Example -->
+                    <!-- Cards Resultado -->
+                    <div class="row">
+	
+                        <!-- Card Resultado: Receita Total -->
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Vendas </div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">1.234</div>
+                                                Contratos ativos </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+												<iframe width="100" height="40" src="https://app.powerbi.com/reportEmbed?reportId=b08fc8b1-ce97-4137-a3b1-8e5841dadaea&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
                                         </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-campground fa-2x text-gray-300"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Receita Carteira (FV)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">R$1.81B</div>
-                                        </div>
-                                        <div class="col-auto">
+                                        <!--<div class="col-auto">
                                             <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                                        </div>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Earnings (Monthly) Card Example -->
+						
+						 <!-- Card Resultado: Receita Vendas -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-info shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Contratos ativos
-                                            </div>
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="col-auto">
-                                                    <iframe width="130" height="40" src="https://app.powerbi.com/reportEmbed?reportId=b9426fac-dd25-483b-b95b-0f221b1b39c9&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&filterPaneEnabled=false&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
-                                                </div>
-                                                <div class="col">
-                                                    <!--<div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar"
-                                                            style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-                                                            aria-valuemax="100"></div>
-                                                    </div>-->
-                                                </div>
-                                            </div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Receita Total </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+												<iframe width="130" height="50" src="https://app.powerbi.com/reportEmbed?reportId=ea8d0663-9a1f-4a50-aaaf-c34abc892a74&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											
+											</div>
                                         </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
-                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Pending Requests Card Example -->
+						
+						 <!-- Card Resultado: Receita FairValue -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-warning shadow h-100 py-2">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                RAR Carteira</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">15.2%</div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Saldo Gerencial </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+											<iframe width="130" height="40" src="https://app.powerbi.com/reportEmbed?reportId=18fb4eeb-28f3-480b-b93a-9f24e9e6bdf5&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
                                         </div>
-                                        <div class="col-auto">
-                                            <i class="fas fa-mountain fa-2x text-gray-300"></i>
-                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
                                     </div>
                                 </div>
                             </div>
                         </div>
+						
+						 <!-- Card Resultado: Receita Accrual -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Saldo Principal </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+											<iframe width="130" height="40" src="https://app.powerbi.com/reportEmbed?reportId=87a88a81-457f-45f3-9ef6-1a4e131fb5aa&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
+                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						 <!-- Card Resultado: Receita Total -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                % Pagamento recebido </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+												<iframe width="80" height="40" src="https://app.powerbi.com/reportEmbed?reportId=d63d8c25-48c2-4ca8-92f9-9d58e85c78de&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											</div>
+                                        </div>
+                                       <!-- <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						 <!-- Card Resultado: Receita Vendas -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                % reduzindo principal </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+											<iframe width="80" height="40" src="https://app.powerbi.com/reportEmbed?reportId=be43b8a5-388f-4119-9594-c3345fcc70bd&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
+                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						 <!-- Card Resultado: Receita FairValue -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                % carteira TPV zerado </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+											<iframe width="80" height="40" src="https://app.powerbi.com/reportEmbed?reportId=a3d1cee4-2e59-44a1-af08-e62bd00153a5&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
+                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						
+						 <!-- Card Resultado: Receita Accrual -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                % zerada sdo principal 
+											</div>  
+											<!--<div class="text-xs font-weight-light text-primary text-lowercase text-gray-800">
+												(últ. 7 dias) 
+											</div>-->
+											
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">
+											
+											<iframe width="80" height="40" src="https://app.powerbi.com/reportEmbed?reportId=1eb60b54-87b4-4dfd-8c97-266890bd86bd&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+											
+											</div>
+                                        </div>
+                                        <!--<div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+					</div>
+
+					<!-- Health Check Carteira: Header -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Health Check Carteira</h1> 
+                        
                     </div>
+					
+					<div class="row">
 
-                    <!-- Content Row -->
-
-                    <div class="row">
-
-                        <!-- Area Chart -->
-                        <div class="col-xl-8 col-lg-7">
+                        <!-- Placar de Vendas -->
+                        <div class="col-xl-12 col-lg-6">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Overview Safras</h6>
-                                    <div class="dropdown no-arrow">
+                                    <h6 class="m-0 font-weight-bold text-primary">Classificação clientes</h6>
+                                    <!--<div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
@@ -381,31 +498,45 @@
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#">Something else here</a>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
-                                    <iframe width="900" height="500" src="https://app.powerbi.com/reportEmbed?reportId=44c52a28-01ab-4e04-bd26-69b26eccbf9b&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&filterPaneEnabled=false&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
-                                        <canvas id="myAreaChart">
-										
-                                       </canvas>
-                                    </div>
+                                   <div class="text-xs font-weight-bold text-primary text-uppercase text-gray-800">
+                                               Régua classificação clientes (% pagamentos)<br>
+												Migração entre Intensive and parallel actions, focused actions e limited close-out action
+									</div>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <!-- Pie Chart -->
-                        <div class="col-xl-4 col-lg-5">
+
+					
+					<!-- Overview Jornada do Crédito: Header -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Overview Jornada do Crédito</h1> 
+                        
+                    </div>
+					
+					
+
+                    <!-- Overview Jornada do Crédito -->
+
+                    <div class="row">
+
+                        <!-- Placar de Vendas -->
+                        <div class="col-xl-12 col-lg-6">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
-                                <!--<div
+                                <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
-                                    <div class="dropdown no-arrow">
+                                    <h6 class="m-0 font-weight-bold text-primary">TBD</h6>
+                                    <!--<div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                        </a>
+											 </a>
                                         <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
                                             aria-labelledby="dropdownMenuLink">
                                             <div class="dropdown-header">Dropdown Header:</div>
@@ -414,38 +545,151 @@
                                             <div class="dropdown-divider"></div>
                                             <a class="dropdown-item" href="#">Something else here</a>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                                 <!-- Card Body -->
-                                <!--<div class="card-body">
-                                    <div class="chart-pie pt-4 pb-2">
-                                        <canvas id="myPieChart"></canvas>
-                                    </div>
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-primary"></i> Direct
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-success"></i> Social
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-circle text-info"></i> Referral
-                                        </span>
-                                    </div>
-                                </div>-->
+                                <div class="card-body">
+                                    <iframe width="900" height="540" src="https://app.powerbi.com/reportEmbed?reportId=16b85fe0-346d-4f15-80fb-1934cce1dbff&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+									
+							   </div>
                             </div>
                         </div>
                     </div>
+					
+										
+					<!-- Overview Jornada do Crédito: Gestão de Carteira-->
 
-                    <!-- Content Row -->
                     <div class="row">
 
-                        <!-- Content Column -->
-                        <div class="col-lg-6 mb-4">
-
-                          
+                      <!-- Placar Gestão Carteira -->
+                        <div class="col-xl-12 col-lg-6">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Gestão Carteira</h6>
+                                    <!--<div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+											 </a>
+                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                                            aria-labelledby="dropdownMenuLink">
+                                            <div class="dropdown-header">Dropdown Header:</div>
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </div>-->
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                  <iframe width="900" height="540" src="https://app.powerbi.com/reportEmbed?reportId=b1cb87ad-6b4a-4bb3-b908-924e80a7d38e&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false&filterPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+                                  <iframe width="900" height="540" src="https://app.powerbi.com/reportEmbed?reportId=b1fb654f-9062-48f1-b0e1-2f9023e32411&autoAuth=true&ctid=1236ea7e-8bbc-43a5-a5ee-189a1954e314&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWJyYXppbC1zb3V0aC1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D&navContentPaneEnabled=false" frameborder="0" allowFullScreen="true"></iframe>
+								
+								</div>
                             </div>
                         </div>
+				</div>
+				
+					
+                    <!-- Overview Jornada do Crédito: Recuperação & Risco -->
+
+                    <div class="row">
+
+                        <!-- Placar  Recuperação & Risco -->
+                        <div class="col-xl-12 col-lg-6">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header - Dropdown -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary"> Recuperação & Risco (TBD)</h6>
+                                    
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <!-- Cards Recuperação & Risco  -->
+									
+									<div class="row">
+					
+										<!-- Card Resultado: Receita Total -->
+										<div class="col-xl-3 col-md-6 mb-4">
+											<div class="card border-left-primary shadow h-100 py-2">
+												<div class="card-body">
+													<div class="row no-gutters align-items-center">
+														<div class="col mr-2">
+															<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+																Recebimentos / trimestre </div>
+															<div class="h5 mb-0 font-weight-bold text-gray-800">R$1.234</div>
+														</div>
+														<div class="col-auto">
+															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										 <!-- Card Resultado: Receita Vendas -->
+										<div class="col-xl-3 col-md-6 mb-4">
+											<div class="card border-left-primary shadow h-100 py-2">
+												<div class="card-body">
+													<div class="row no-gutters align-items-center">
+														<div class="col mr-2">
+															<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+																% Recuperação total </div>
+															<div class="h5 mb-0 font-weight-bold text-gray-800">R$1.234</div>
+														</div>
+														<div class="col-auto">
+															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										 <!-- Card Resultado: Receita FairValue -->
+										<div class="col-xl-3 col-md-6 mb-4">
+											<div class="card border-left-primary shadow h-100 py-2">
+												<div class="card-body">
+													<div class="row no-gutters align-items-center">
+														<div class="col mr-2">
+															<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+																TBD </div>
+															<div class="h5 mb-0 font-weight-bold text-gray-800">R$1.234</div>
+														</div>
+														<div class="col-auto">
+															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										
+										 <!-- Card Resultado: Receita Accrual -->
+										<div class="col-xl-3 col-md-6 mb-4">
+											<div class="card border-left-primary shadow h-100 py-2">
+												<div class="card-body">
+													<div class="row no-gutters align-items-center">
+														<div class="col mr-2">
+															<div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+																TBD </div>
+															<div class="h5 mb-0 font-weight-bold text-gray-800">R$1.234</div>
+														</div>
+														<div class="col-auto">
+															<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					
+
                     </div>
 
                 </div>
